@@ -1,4 +1,4 @@
-# Webscrapping with beautiful soup and text text summarization with NLTK
+# Webscrapping with beautiful soup and text summarization with NLTK
 
 This code is a full webscrapping process from accessing a website to transforming its data to a summarized texts and csv files :
 We will work on my universty's "ISTIC" website to : 
