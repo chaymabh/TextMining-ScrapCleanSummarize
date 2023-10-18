@@ -1,16 +1,33 @@
-# Web Scraping with Beautiful Soup and Text Summarization with NLTK
+# TextMining-ScrapCleanSummarize
+This repository contains code for scraping, cleaning, and summarizing text data from websites. It provides a comprehensive process for extracting valuable information from online sources and condensing it into summarized text.
 
-This repository contains a code that performs a complete web scraping process, from accessing a website to transforming its data into summarized texts and CSV files. The code focuses on scraping data from the "ISTIC" website, which belongs to my university.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [License](#license)
 
-The code performs the following tasks:
+## Installation
+To use this code, follow these steps:
 
-1. Automated data scraping: It extracts specific data from the website using the Beautiful Soup library.
-2. Conversion to CSV files: It transforms the extracted data, particularly tables, into CSV files using the Pandas library.
-3. Text summarization: It summarizes paragraphs using the NLTK library, providing condensed versions of the text content.
-4. Automated image scraping: It extracts images from the website and saves them in a designated folder.
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/chaymabh/TextMining-ScrapCleanSummarize.git
+   cd TextMining-ScrapCleanSummarize
+    ```
+2. **Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-This code provides a comprehensive process for scraping data, transforming it, and extracting valuable information from websites. By customizing the code to suit your needs, you can apply it to different websites and extract specific data of interest.
+## Usage
 
-Feel free to explore and modify this code to fit your requirements. If you have any questions or need further assistance, please don't hesitate to contact us.
+- **Web Scraping:** Use `Data_collecter_and_cleaner.py` to perform web scraping. This code leverages Beautiful Soup for automated data extraction.
 
+- **Text Summarization:** Utilize `Text_summarizer.py` to generate concise summaries of text. It uses the NLTK library for this purpose.
 
+- **Customization:** This code is designed for web scraping and text summarization but can be customized to suit your specific needs. Feel free to modify it for different websites and data sources.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
